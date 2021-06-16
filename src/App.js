@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import { Header } from './components/Header.jsx';
 import {TinderCards} from './components/TinderCards.jsx';
 import {SwipeButtons} from "./components/SwipeButtons";
