@@ -3,30 +3,30 @@ import ReplayIcon from "@material-ui/icons/Replay";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
-import styles from "./SwipeButtons.module.css";
 import IconButton from "@material-ui/core/IconButton";
+import  "./SwipeButton.css";
 
 export function SwipeButtons() {
   return (
-    <div className={styles.swipeButtons}>
+    <div className= 'swipeButtons' >
 
-      <IconButton className={styles.swipeButtonS_repeat}>
+      <IconButton className= 'swipeButtons_repeat'>
         <ReplayIcon fontSize='large' />
       </IconButton>
 
-      <IconButton className={styles.swipeButtonS_left}>
+      <IconButton className='swipeButtons_left'>
         <CloseIcon fontSize='large'/>
       </IconButton>
 
-      <IconButton className={styles.swipeButtonS_star}>
+      <IconButton className='swipeButtons_star'>
         <StarRateIcon fontSize='large'/>
       </IconButton>
 
-      <IconButton className={styles.swipeButtonS_right}>
+      <IconButton className='swipeButtons_right'>
         <FavoriteIcon fontSize='large' />
       </IconButton>
 
-      <IconButton className={styles.swipeButtonS_lightning}>
+      <IconButton className='swipeButtons_lightning'>
         <FlashOnIcon fontSize='large' />
       </IconButton>
 
