@@ -4,7 +4,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton";
-import  "./SwipeButton.css";
+import  "./SwipeButtons.css";
 
 export function SwipeButtons() {
   return (
