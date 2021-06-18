@@ -9,23 +9,33 @@ import  "./SwipeButtons.css";
 export function SwipeButtons() {
   return (
     <div className= 'swipeButtons' >
+        {//rewids regresar 
+        }
 
       <IconButton className= 'swipeButtons_repeat'>
         <ReplayIcon fontSize='large' />
       </IconButton>
-
+        {
+          //unlike
+        }
       <IconButton className='swipeButtons_left'>
         <CloseIcon fontSize='large'/>
       </IconButton>
-
+        {
+          // like
+        }
       <IconButton className='swipeButtons_star'>
         <StarRateIcon fontSize='large'/>
       </IconButton>
-
+        {
+          // super like
+        }
       <IconButton className='swipeButtons_right'>
         <FavoriteIcon fontSize='large' />
       </IconButton>
-
+        {
+          // destacado
+        }
       <IconButton className='swipeButtons_lightning'>
         <FlashOnIcon fontSize='large' />
       </IconButton>
