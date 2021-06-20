@@ -7,7 +7,7 @@ Install it and run:
 npm install
 npm start
 ```
-#Tasklist:
+# Tasklist:
 - [x] Header
 - [x] Card Tinder
 - [x] Swipe Button
@@ -17,7 +17,7 @@ npm start
 - [ ] profile user 
 - [ ] connect to backend
 
-#view 
+# view 
 
 
 
