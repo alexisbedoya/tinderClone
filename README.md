@@ -11,10 +11,15 @@ npm start
 - [x] Header
 - [x] Card Tinder
 - [x] Swipe Button
+- [ ] Sign up page 
 - [ ] List chat 
 - [ ] chat
 - [ ] profile user 
 - [ ] connect to backend
+
+#view 
+
+
 
 
 ## The idea behind the example
